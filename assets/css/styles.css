@@ -165,24 +165,39 @@ input[type=submit] {
 @media screen and (max-width:768px){
     #headerContent{
         width: 740px;
-        margin: 0 auto;
-        background: #ffffff;
-        overflow: auto;
-        height: 79px;
     }
     
     section{
-        border: 1px solid #dddddd;
-        background-color: white;
-        padding: 20px;
         width: 740px;
-        margin: 30px auto;
-        line-height: 32px;
-        overflow: auto;
     }
     
 }
 
 @media screen and (max-width:640px){
+    header{
+        height: 100%;
+    }
+
+    #headerContent{
+        width: 640px;
+        height: 100%;
+    }
+
+    section{
+        width: 620px;
+    }
+
+    h1{
+        width: 100%;
+        text-align: center;
+        float: none;
+    }
+
+    #linkDiv{
+        margin: 0 auto;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
     
 }
